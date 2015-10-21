@@ -77,18 +77,18 @@ describe("About Arrays", function() {
     var array = [1, 2];
     array.push(3);
 
-    expect(array).toEqual([1, 2, 3]]);
+    expect(array).toEqual([1, 2, 3]);
 
     var poppedValue = array.pop();
     expect(poppedValue).toBe(3);
-    expect(array).toEqual([1, 2]]);
+    expect(array).toEqual([1, 2]);
   });
 
   it("should know about shifting arrays", function () {
     var array = [1, 2];
 
     array.unshift(3);
-    expect(array).toEqual([3, 1, 2]]);
+    expect(array).toEqual([3, 1, 2]);
 
     var shiftedValue = array.shift();
     expect(shiftedValue).toEqual(3);
